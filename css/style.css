@@ -1,0 +1,149 @@
+
+body{
+    margin: 0px auto;
+    padding-top: 25px;
+    width: 80%;
+
+}
+.main{
+    margin: 0px auto;
+    width: 62%;
+}
+
+.logo {
+   height: 50px;
+   border: 1px solid #808080;
+   width: 100px;
+   float: left;
+}
+
+.menu{
+    float: left;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    height: 25px;
+    background: #D6D6D6;
+    margin-right: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu ul li.active{
+    background: #198FD6;
+}
+.menu ul li:hover{
+    background: #198FD6;
+}
+
+.menu ul li a{
+    color: #484848;
+    text-decoration: none;
+}
+
+.content{
+    clear: both;
+    margin: 0px auto;
+    width: 62%;
+    padding-top: 50px;
+}
+
+.laft-box .table {
+    float: left;
+    width: 48%;
+}
+
+.right-box .textarea{
+    float: left;
+    width: 44%;
+
+}
+.content .laft-box > fieldset{
+    float: left;
+    width: 44%;
+    height: 150px;
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.content .right-box > fieldset{
+    float: left;
+    width: 44%;
+    height: 150px;
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+}
+
+fieldset > legend{
+    background: #666666;
+    border-radius: 5px;
+    color: #fff;
+    padding: 3px 10px 3px 10px;
+    font-weight: bold;
+}
+
+.box-title {
+    height: 30px;
+    border: 1px solid red;
+}
+
+.all_button{
+    margin: 0px auto;
+    width: 35%;
+
+}
+
+.button {
+   text-align: center;
+   padding: 5px 20px 5px 20px;
+   background: #EBEBEB;
+   margin-top: 25px;
+   border: 1px solid #818181;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.needsfilled {
+    border: 1px solid red;
+    color:#808080;
+}
+
+.table >tbody > tr >td{
+   padding: 5px 2px 5px 10px;
+}
+
+.success-msg {
+    color: #008000;
+    text-align: center;
+}
+
+.content .laft-box > fieldset select{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.content .right-box > fieldset label {
+    padding: 15px;
+}
+
+.content .right-box > fieldset input {
+    margin-top: 10px;
+}
+
+.content .right-box > fieldset select {
+    margin-top: 10px;
+}
+
+.update >fieldset{
+    float: none!important;
+    margin: 0 auto!important;
+}
+
+#footer{
+    clear: both;
+    padding-top: 30px;
+}

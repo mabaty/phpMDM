@@ -1,0 +1,75 @@
+/* Login Styles */
+#login {
+	width: 250px;
+	height: 200px;
+	padding: 25px 0px 0px 30px;
+	margin: 0px auto;
+	border-radius: 6px;
+	border: 2px solid #515050;
+	background-color: #c1c1c1;
+	
+}
+
+.button {
+	margin-top: 10px;
+    padding: 5px 10px;
+    display: inline;
+    background: #636363 bottom;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px 0px #666;
+    }
+.button:hover {
+    background-position: 0 -48px;
+    }
+.button:active {
+    background-position: 0 top;
+    position: relative;
+    top: 1px;
+    padding: 6px 10px 4px;
+    }
+    
+.unpw {
+	font-size: small;	
+}
+
+.un {
+	font-size: small;	
+}
+    
+/* Main Page Layout Styles */
+body {
+	font-family: Lucida Sans Unicode;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+#header {
+	width: 960px;
+	height: 125px;
+	padding: 5px 10px;
+}
+
+#content {
+	padding: 60px 10px 10px 10px;
+	height: 800px;
+	width: 960px;
+	float: left;
+}
+
+#footer {
+	width: 960px;
+	height: 50px;
+	text-align:center;
+	font-size: xx-small;
+}
+
+/* END Login Styles */

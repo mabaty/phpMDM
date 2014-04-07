@@ -1,0 +1,342 @@
+/* Master Style Sheet v0.1 */
+
+.report {
+	margin: 0px 100px;
+}
+
+/* Element Styles */
+td.stathover {
+	background-color: green;
+	border-radius: 5px;
+}
+/* END Element Styles */
+
+
+/* Navigation Styles */
+.nav {
+	-moz-box-shadow:inset 0px 1px 2px 0px #e8e8e8;
+	-webkit-box-shadow:inset 0px 1px 2px 0px #e8e8e8;
+	box-shadow:inset 0px 1px 2px 0px #e8e8e8;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2181cf), color-stop(1, #37a3eb) );
+	background:-moz-linear-gradient( center top, #2181cf 5%, #37a3eb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2181cf', endColorstr='#37a3eb');
+	background-color:#2181cf;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #1c74b3;
+	display:inline-block;
+	color:#ebebeb;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 2px #545454;
+	margin-left: 3px;
+}.nav:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #37a3eb), color-stop(1, #2181cf) );
+	background:-moz-linear-gradient( center top, #37a3eb 5%, #2181cf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#37a3eb', endColorstr='#2181cf');
+	background-color:#37a3eb;
+}.nav:active {
+	position:relative;
+	top:1px;
+}
+
+a:link, a:visited {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* END Navigation Styles */
+
+
+/* Main Page Layout Styles */
+body {
+	
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	font-family: Lucida Sans Unicode;
+}
+
+#header {
+	width: 960px;
+	height: 125px;
+	padding: 5px 10px;
+	font-family: Lucida Sans Unicode;
+}
+
+#menu {
+	height: auto;
+	font-family: Lucida Sans Unicode;
+}
+
+#content {
+	padding: 60px 10px 10px 10px;
+	height: 800px;
+	width: 960px;
+	font-family: Lucida Sans Unicode;
+}
+
+#contreports {
+	padding: 60px 10px 10px 10px;
+	height: auto;
+	width: auto;
+	font-family: Lucida Sans Unicode;
+}
+
+#footer {
+	width: 960px;
+	height: 50px;
+	text-align:center;
+	font-family: Lucida Sans Unicode;
+	font-size: xx-small;
+}
+
+#dash {
+	border-radius: 7px;
+	padding-top: 10px;
+	width: 960px;
+	height: auto;
+	border: 1px solid black;
+}
+
+#dashsettings {
+	border-radius: 7px;
+	padding-top: 10px;
+	width: 960px;
+	height: 450px;
+	border: 1px solid black;
+}
+
+#graph {
+	border-radius: 7px;
+	padding-top: 10px;
+	width: 315px;
+	height: 300px;
+	float:left;
+	margin-left: 17px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+
+} 
+
+#graph2 {
+	border-radius: 7px;
+	padding-top: 10px;
+	width: 315px;
+	height: 300px;
+	border: 1px solid black;
+	float:left;
+	margin-left: 10px;
+	margin-bottom: 25px;
+
+} 
+
+#stats {
+	text-align: center;
+	border-radius: 7px;
+	padding-top: 10px;
+	width: 270px;
+	height: 300px;
+	border: 1px solid black;
+	float:left;
+	margin-left: 10px;
+	margin-bottom: 25px;
+
+}
+
+h3.log {
+	text-align: center;
+}
+
+table.stats {
+	
+	font-family: Lucida Sans Unicode;
+	font-size: larger;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stattd {
+	font-size: xx-large;
+}
+
+.mouseenter {
+	color: gray;
+}
+
+#dashlogshead {
+	background-color: #3e8feb;
+	border-radius: 7px 7px 0px 0px;
+	width: 100%;
+	height: 30px;
+	border: 1px solid #3e8feb;
+	float: left;
+	margin-top: 40px;
+	margin-left: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: Lucida Sans Unicode;
+	color: #FFFFFF;
+	padding-top: 5px;
+	
+}
+
+#logs {
+	border-radius: 7px 7px 7px 7px;
+	width: 925px;
+	height: 400px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 0px;
+	margin-left: 16px;
+}
+
+table.dashlog {
+	width: 100%;
+	border-collapse: collapse; 
+	
+}
+
+.hilight:hover {
+	background: #7caff6;
+}
+
+.rhilight:hover {
+	background: #ff4c4c
+}
+
+td {
+	padding: 5px 10px 5px 10px;
+	font-size: small;
+}
+
+th {
+	background-color: #3e8feb;
+	border-bottom: 2px solid black;
+}
+
+th.lhead {
+	border-radius: 7px 0px 0px 0px;
+}
+
+th.rhead {
+	border-radius: 0px 7px 0px 0px;
+}
+
+/* Add Record Layout Styles */
+
+#leftform {	
+	padding: 10px;
+	border-radius: 7px 7px 7px 7px;
+	width: 450px;
+	height: 400px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+#rightform {	
+	border-radius: 7px 7px 7px 7px;
+	width: 460px;
+	height: 400px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+.boxes {
+	width: 200px;
+}	
+
+.addlbl {
+	font-size: x-small;
+}
+
+.success-msg {
+    color: #008000;
+    text-align: center;
+}
+
+.all_button{
+    margin: 0px auto;
+    width: 90%;
+	text-align:center;
+
+}
+
+.button {
+   text-align: center;
+   padding: 5px 20px 5px 20px;
+   background: #EBEBEB;
+   margin-top: 25px;
+   border: 1px solid #818181;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.rprtbutton {
+   text-align: center;
+   padding: 5px 20px 5px 20px;
+   background: #EBEBEB;
+   border: 1px solid #818181;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.right-box .textarea{
+    float: left;
+    width: 44%;
+
+}
+
+.content .right-box > fieldset select {
+    margin-top: 10px;
+}
+
+.content .right-box > fieldset input {
+    margin-top: 10px;
+}
+
+.content .right-box > fieldset label {
+    padding: 15px;
+}
+
+.content .right-box > fieldset{
+    float: left;
+    width: 44%;
+    height: 150px;
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+}
+
+.laft-box .table {
+    float: left;
+    width: 48%;
+}
+
+.table >tbody > tr >td{
+   padding: 5px 2px 5px 10px;
+}
+
+.content .laft-box > fieldset{
+    float: left;
+    width: 44%;
+    height: 150px;
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.content .laft-box > fieldset select{
+    margin-top: 40px;
+    margin-left: 15px;
+}
